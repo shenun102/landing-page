@@ -67,7 +67,7 @@ a {
 
 button {
   color: white;
-  background-color: rgb(25, 89, 228);
+  background-color: #3882f6;
   border: 0;
   border-radius: 4px;
   padding: 6px 18px 6px 18px;
@@ -139,6 +139,8 @@ button {
 }
 
 .text-3 {
+  overflow: auto;
+  max-height: 75%;
   font-size: 28px;
   font-style: italic;
   margin: 0;
@@ -148,4 +150,48 @@ button {
   font-weight: bold;
   align-self: flex-end;
   margin-right: 32px;
+}
+
+/* Section 4 */
+
+.container-4 {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #3882f6;
+  height: 140px;
+  width: 50vw;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 48px;
+}
+
+.text-4 {
+  color: white;
+  overflow: auto;
+  max-height: 75%;
+}
+
+.text-4 p,
+.text-4 h2 {
+  margin: 4px;
+}
+
+.text-4 p {
+  font-size: 16px;
+}
+
+.sign-up-2 {
+  height: 32px;
+  width: 96px;
+  text-align: center;
+  border: 2px solid white;
+  flex-shrink: 0;
+  margin-right: 8px;
 }
